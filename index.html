@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>우리 반 방명록</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 16px;
+    font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+    background: #f4f6fb;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    margin: 0 0 32px;
+  }
+  .cards {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  .card h2 {
+    margin: 0 0 8px;
+    font-size: 18px;
+  }
+  .card p {
+    margin: 0 0 12px;
+    line-height: 1.5;
+  }
+  .card .date {
+    font-size: 12px;
+    color: #888;
+  }
+</style>
+</head>
+<body>
+  <h1>우리 반 방명록</h1>
+
+  <section class="cards">
+    <article class="card">
+      <h2>김하늘</h2>
+      <p>올 한 해 모두 즐거웠어! 다들 고마워 😊</p>
+      <span class="date">2026-10-15</span>
+    </article>
+    <article class="card">
+      <h2>이준호</h2>
+      <p>수학여행 때 정말 재밌었어요. 잊지 못할 거예요!</p>
+      <span class="date">2026-10-15</span>
+    </article>
+    <article class="card">
+      <h2>박서연</h2>
+      <p>우리 반 최고! 졸업해도 계속 연락하자 💌</p>
+      <span class="date">2026-10-15</span>
+    </article>
+  </section>
+</body>
+</html>
